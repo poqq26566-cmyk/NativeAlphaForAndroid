@@ -181,4 +181,4 @@
     <string name="support_liberapay">在 Liberapay 上支持我</string>
     <string name="adblock_warning_text">您当前的广告拦截设置可能导致问题或崩溃。并非所有过滤列表都能在所有设备上正常工作。\n\n建议清空过滤列表并重新添加以进行测试。</string>
     <string name="warning">警告</string>
-</resources>
+</resources> 
