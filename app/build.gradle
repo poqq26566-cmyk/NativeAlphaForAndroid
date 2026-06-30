@@ -17,7 +17,9 @@ android {
              delete fileTree('src/main') {
                  include '**/AndroidManifest.xml'
              }
-             ant.move(file: 'src/main/AndroidManifest_original.xml', tofile:'src/main/AndroidManifest.xml')
+             if (file('src/main/AndroidManifest_original.xml').exists()) {
+    ant.move(file: 'src/main/AndroidManifest_original.xml', tofile:'src/main/AndroidManifest.xml')
+             }
 
          }
      }
